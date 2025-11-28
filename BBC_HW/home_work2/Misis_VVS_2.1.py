@@ -8,16 +8,12 @@ def lvl1() -> str:
 
     reg : str = input()
 
-    print("Хотите сделать первую букву заглавной? Да/Нет")
-    cap : str = input()
-
     ans : str = a
     if (reg == "H"):
-        if cap == "Да":
-            print(ans.upper().capitalize())
-        else:
-            print(ans.upper())
+        print(ans.upper())
     elif (reg == "L"):
+        print("Хотите сделать первую букву заглавной? Да/Нет")
+        cap: str = input()
         if cap == "Да":
             print(ans.lower().capitalize())
         else:

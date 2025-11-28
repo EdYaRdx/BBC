@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# IDE (PyCharm / IntelliJ)
+.idea/
+
+# Логи
+*.log
+
+# Кэш тестов / mypy и прочее
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Jupyter (на всякий)
+.ipynb_checkpoints/
+
+# Системное
+.DS_Store
+Thumbs.db
+
+# Данные
+data/*.csv
+output.csv
