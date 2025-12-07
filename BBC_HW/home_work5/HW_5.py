@@ -3,7 +3,7 @@ import numpy as nm
 
 #-----1_задание-----
 
-''' 
+
 data = pd.read_csv("../../data/tested.csv")
 
 # открытие
@@ -59,10 +59,10 @@ print("Пропусков в Age после заполнения:", data["Age"].
 
 # Сохранение файла
 data.to_csv("../../data/output.csv", index=False)
-'''
+
 
 #-----2_задание-----
-
+''' 
 data = pd.read_csv("../../data/tested.csv")
 
 # Процент выживших
@@ -93,4 +93,4 @@ print("Кол-во таких пассажиров:", filtered_1.shape[0])
 filtered_2 = data[((data["Age"] < 30) | (data["Sex"] == "female")) & (data["Survived"] == 1)]
 print(filtered_2)
 print("Кол-во таких пассажиров:", filtered_2.shape[0])
-
+'''
